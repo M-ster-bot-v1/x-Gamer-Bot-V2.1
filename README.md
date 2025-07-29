@@ -1,57 +1,105 @@
-# x-Gamer-Bot-V2.1
 
-x-Gamer-Bot-V2.1 es un bot multifuncional diseñado para plataformas de mensajería (como Discord, Telegram, etc.) con enfoque en utilidades gamer y automatización de tareas.
+# 🤖 GhostDev654
 
-## Características
+Un bot de WhatsApp inteligente y personalizable, basado en [Baileys](https://github.com/adiwajshing/Baileys), con soporte para **subbots**, comandos dinámicos, sistema de admins, bans, reproducción de música y mucho más.
 
-- Comandos personalizados para juegos y comunidades gamer.
-- Integraciones con APIs de videojuegos y plataformas de streaming.
-- Moderación automática y herramientas administrativas.
-- Sistema de niveles, logros y estadísticas para usuarios.
-- Soporte para plugins/extensiones.
-
-## Instalación
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/ghostdev654/x-Gamer-Bot-V2.1.git
-   cd x-Gamer-Bot-V2.1
-   ```
-
-2. Instala las dependencias:
-   ```bash
-   npm install
-   # o
-   yarn install
-   ```
-
-3. Configura el archivo `.env` con tus credenciales y tokens necesarios.
-
-4. Inicia el bot:
-   ```bash
-   npm run start
-   # o
-   yarn start
-   ```
-
-## Uso
-
-- Ejecuta los comandos disponibles en la plataforma soportada con el prefijo configurado (ejemplo: `!comando`).
-- Consulta la documentación en la carpeta `/docs` para una lista completa de comandos y configuraciones.
-
-## Contribución
-
-Las contribuciones son bienvenidas. Por favor, abre un issue o pull request para sugerencias o mejoras.
-
-1. Haz un fork del repositorio.
-2. Crea una rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y haz commit.
-4. Envía un pull request.
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+> ⚠️ Proyecto desarrollado por `メ Ġᶏmԑя` para uso educativo y personal. No se permite la venta, redistribución ni el uso comercial sin autorización.
 
 ---
 
-**Autor:** [ghostdev654](https://github.com/ghostdev654)
+## 📦 Características
+
+- 🚀 Soporte para múltiples subbots (hasta 85+ sessions activas)
+- 📂 Plugins modulares y comandos personalizables
+- 📵 Sistema de ban y anti-spam avanzado
+- 🛡️ Sistema de admins, autoadmin, roles y verificación
+- 📻 Comandos multimedia (Spotify, YouTube, etc.)
+- 🔄 `.plug` para compartir plugins directamente por chat
+- 🛠️ `.join`, `.leave`, `.ban`, `.unban`, `.antispam` y muchos más
+- 🔐 Compatible con canales y seguimiento silencioso
+- 🌎 Base de datos en JSON, sin MongoDB
+
+---
+
+## 📁 Estructura del proyecto
+
+GhostDev654/ ├── main.js               # Archivo principal del bot ├── plugins/              # Comandos en formato plugin (recomendado) ├── subbots/              # Carpetas con sesiones separadas ├── creds.json            # Sesión principal ├── prefixes.json         # Prefijos por subbot ├── blacklist.json        # Lista de usuarios baneados ├── grupo.json            # Grupos autorizados para eventos globales └── README.md             # Este archivo
+
+---
+
+## 🔧 Instalación
+
+```bash
+git clone https://github.com/tuusuario/GhostDev654
+cd GhostDev654
+npm install
+node main.js
+
+> ✨ Se recomienda usar Node.js 16 o superior.
+
+
+
+
+---
+
+🧠 Uso del bot
+
+Los comandos se escriben con un prefijo (. por defecto)
+
+Podés personalizar los prefijos por subbot
+
+Los subbots se almacenan en ./subbots, cada uno con su propia sesión
+
+
+
+---
+
+🔑 Comandos útiles
+
+.join <link> – El bot entra a un grupo (solo owners)
+
+.leave – El bot sale de un grupo (solo owners)
+
+.autoadmin – Te da admin automáticamente
+
+.ban, .unban – Control de usuarios
+
+.antispam on/off – Activa/desactiva el modo antispam
+
+.plug <archivo> – Envía el código de un plugin por chat
+
+.spotify <url> – Descarga canciones desde Spotify
+
+.code <número> – Verifica si un número existe en WhatsApp
+
+
+
+---
+
+👑 Créditos
+
+Código base: Baileys
+
+API de música: Neoxr API
+
+Desarrollo y custom: メ Ġᶏmԑя
+
+Asistencia e inspiración: Kevin, Russell, OnIslayer
+
+
+
+---
+
+📜 Licencia
+
+Este proyecto es de uso personal. Si vas a publicarlo, da créditos y respeta el trabajo de los demás.
+Prohibido el uso con fines comerciales sin autorización del autor.
+
+
+---
+
+🗿 ¿Dudas o mejoras?
+
+Abrí un issue o contactame por WhatsApp si sos parte del equipo de desarrollo.
+
+> "Los bots no duermen, pero yo sí. Así que no rompas a las 4 AM." – メ Ġᶏmԑя
