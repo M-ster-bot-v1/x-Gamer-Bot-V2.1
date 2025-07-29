@@ -19,11 +19,6 @@ Un bot de WhatsApp inteligente y personalizable, basado en [Baileys](https://git
 - 🔐 Compatible con canales y seguimiento silencioso
 - 🌎 Base de datos en JSON, sin MongoDB
 
----
-
-## 📁 Estructura del proyecto
-
-GhostDev654/ ├── main.js               # Archivo principal del bot ├── plugins/              # Comandos en formato plugin (recomendado) ├── subbots/              # Carpetas con sesiones separadas ├── creds.json            # Sesión principal ├── prefixes.json         # Prefijos por subbot ├── blacklist.json        # Lista de usuarios baneados ├── grupo.json            # Grupos autorizados para eventos globales └── README.md             # Este archivo
 
 ---
 
@@ -33,7 +28,7 @@ GhostDev654/ ├── main.js               # Archivo principal del bot ├─�
 git clone https://github.com/tuusuario/GhostDev654
 cd GhostDev654
 npm install
-node main.js
+node main.js```
 
 > ✨ Se recomienda usar Node.js 16 o superior.
 
