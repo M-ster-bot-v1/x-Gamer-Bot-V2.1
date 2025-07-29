@@ -28,7 +28,8 @@ Un bot de WhatsApp inteligente y personalizable, basado en [Baileys](https://git
 git clone https://github.com/tuusuario/GhostDev654
 cd GhostDev654
 npm install
-node main.js```
+node main.js
+```
 
 > ✨ Se recomienda usar Node.js 16 o superior.
 
